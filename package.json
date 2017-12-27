@@ -1,0 +1,58 @@
+{
+    "name": "node-red-contrib-http-request-ucg2",
+    "version": "0.2.0",
+    "description": "A Node-RED node for performing http(s) requests that use Request library with optimized proxy support. updated for pool value exposure",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nitin20212/node-red-contrib-http-request-ucg2"
+    },
+    "keywords": [
+        "node-red",
+        "http",
+        "https",
+        "request",
+        "proxy"
+    ],
+    "author": {
+        "name": "Yohann Ciurlik",
+        "email": "spawnrider@gmail.com",
+        "url": "https://github.com/spawnrider"
+    },
+    "contributors": [{
+            "name": "Yohann Ciurlik",
+            "email": "spawnrider@gmail.com",
+            "url": "https://github.com/spawnrider"
+        },
+        {
+            "name": "Mohamed Chekir",
+            "email": "medchkir@gmail.com",
+            "url": "https://github.com/medchkir"
+        },
+        {
+            "name": "Jim Barnebee",
+            "email": "jim@barnebee.com",
+            "url": "https://github.com/jimbarnebee"
+        },
+        {
+          "name": "Nitin Kulkarni",
+          "email": "nitin2012@gmail.com",
+          "url":"https://github.com/nitin20212"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/spawnrider/node-red-contrib-http-request/issues"
+    },
+    "node-red": {
+        "nodes": {
+            "request-ucg2": "request-ucg2.js"
+        }
+    },
+    "dependencies": {
+        "request": "^2.74.0"
+    },
+    "homepage": "https://github.com/mikakaraila/node-red-contrib-opcua#readme",
+    "scripts": {
+        "test": "karma start opcua.conf.js --log-level debug --single-run"
+    }
+}
